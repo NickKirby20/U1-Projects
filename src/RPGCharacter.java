@@ -1,3 +1,5 @@
+
+import javax.swing.JOptionPane;
 public class RPGCharacter {
 
     /*Create a program that calculates an RPG Character's battle stats based on the character's physical stats.
@@ -10,4 +12,37 @@ public class RPGCharacter {
 
      The program should run using dialog boxes and the output should show ALL the character's stats including a name.
      */
+    public static void main(String[] args) {
+
+        String name;
+        String strength;
+        String dexterity;
+        String spirit;
+
+        name= JOptionPane.showInputDialog("What is you characters name ");
+        strength = JOptionPane.showInputDialog("How much strength does your character have ");
+        dexterity = JOptionPane.showInputDialog("How much dexterity does your character have" );
+        spirit = JOptionPane.showInputDialog("How much spirit does your character have" );
+
+
+        System.out.println(name);
+        System.out.println("Strength=" + strength);
+        System.out.println("Dexterity=" + dexterity);
+        System.out.println("Spirit=" + spirit);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
 }
